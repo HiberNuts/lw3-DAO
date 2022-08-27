@@ -4,7 +4,7 @@ const { CRYPTODEVS_NFT_CONTRACT_ADDRESS } = require("../constants");
 
 async function main() {
   const gwei = 1000000000;
-  const gas = 40000;
+  const gas = 70000;
   const gasPrice = gwei * 20;
   // Deploy the FakeNFTMarketplace contract first
   const FakeNFTMarketplace = await ethers.getContractFactory("FakeNFTMarketplace");

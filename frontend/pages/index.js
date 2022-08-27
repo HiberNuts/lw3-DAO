@@ -89,6 +89,8 @@ export default function Home() {
     }
   };
 
+  
+
   const fetchProposalById = async (id) => {
     try {
       const provider = await getProvidersOrSigner();
